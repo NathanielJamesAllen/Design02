@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> James Allen | Systems Engineer </title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!----Font Awesome cdn font icon css---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <div class="hero-header">
+            <div class="wrapper">
+                <header>
+                    <div class="logo">
+                        <i class="fa-solid fa-a">J</i>
+                        <div class="logo-text">James Allen</div>
+
+                    </div>
+                    <nav>
+                        <div class="togglebtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="navlinks">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Resume</a></li>
+                            <li><a href="#">Portfolio</a></li>                            
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="container">
+                    <div class="hero-pic ">
+                        <img src="images/main_photo.jpg" alt="profile pic">
+                    </div>
+                    <div class="hero-text">
+                        <h5>Hi I'm a <span class="input">System Engineer</span></h5>
+                        <h1>James Allen</h1>
+                        <p>I am currently a Systems Engineer at ReliaSource where I use Powershell to automate and script solutions. 
+                            Previously, I graduated from Southern Virginia University in December 2023! 
+                            Other relevant details are that I was a software developer intern at Azora Software where I was using Javascript to implement features. I will only continue to improve my skills from here!
+                        </p>
+
+                        <div class="btn-group">
+                            <a href="#" class="btn">Download CV</a>
+                            <a href="#" class="btn">Contact</a>
+                        </div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <div>
+                            <ul>
+                                Copyright © 2025 James Allen. All Rights Reserved. 
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---typed js for typing text effect-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+        <script>
+            /** creating button click show hide navbar **/
+            var togglebtn=document.querySelector('.togglebtn');
+            var nav=document.querySelector('.navlinks');
+            var links=document.querySelectorAll('.navlinks li');
+            
+            togglebtn.addEventListener("click", function(){
+                this.classList.togglebtn('click');
+                nav.classList.toggle("open")
+            })
+
+            var typed=new Typed(".input", {
+                strings:["Systems Engineer", "Software Developer", "Problem Solver"],
+                typedSpeed:150,
+                backSpeed:100,
+                loop:true
+            })
+        </script>
+        
+    </body>
+</html>
