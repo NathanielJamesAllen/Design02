@@ -9,4 +9,4 @@ Improvements
 5. add projects
 6. Add download button where resume can be downloaded
 7. Add demos
-8. add toolbar
+8. better favicon for toolbar
