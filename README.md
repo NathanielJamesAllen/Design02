@@ -2,8 +2,8 @@
 Website Portfolio where all my projects are hosted
 
 Improvements
-1. add licensing
-2. fix socials so that they work
+1. optimize positioning of licensing
+2. optimize positioning of socials
 3. add dark mode function
 4. change colors
 5. add projects
