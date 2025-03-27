@@ -27,11 +27,11 @@
                             
                         </div>
                         <ul class="navlinks">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Experience</a></li>
-                            <li><a href="#">Projects</a></li> 
-                            <li><a href="#">Resume</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a class="btn" href="assets/files/NjaResume.pdf" download="NjaResume.pdf">Resume</a></li>
+                            <li><a href="#Projects">Projects</a></li>                            
+                            <!--<li><a href="#">Skills</a></li>-->
+                            <li><a href="mailto:nathanieljamesallen2@gmail.com">Contact</a></li>
                         </ul>
                     </nav>
                 </header>
@@ -43,22 +43,46 @@
                         <h5>Hi I'm a <span class="input">System Engineer</span></h5>
                         <h1>James Allen</h1>
                         <p>I am currently a Systems Engineer at ReliaSource where I use Powershell to automate and script solutions. 
-                            Previously, I graduated from Southern Virginia University in December 2023! 
-                            Other relevant details are that I was a software developer intern at Azora Software where I was using Javascript to implement features. I will only continue to improve my skills from here!
+                            Previously, I graduated from Southern Virginia University in December 2023. 
+                            Other relevant details are that I was a software developer intern at Azora Software where I was using Javascript to implement features. I am continuing my self learning journey as showcased here!
                         </p>
 
                         <div class="btn-group">
-                            <a class="btn">Download CV</a>
+                            <a class="btn" href="assets/files/NjaResume.pdf" download="NjaResume.pdf">Download CV</a> 
                             <a href="mailto:nathanieljamesallen2@gmail.com" class="btn">Contact</a>
                         </div>
 
                         <div class="social">
-                            <a href="https://www.linkedin.com/in/james-allen1998"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/NathanielJamesAllen"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/james-allen1998" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/NathanielJamesAllen" target="_blank"><i class="fab fa-github"></i></a>
                             <a href="mailto:nathanieljamesallen2@gmail.com"><i class="fa fa-envelope"></i></a>
+                            <a class="btn" href="assets/files/NjaResume.pdf" download="NjaResume.pdf"><i class="fa fa-download" aria-hidden="true"></i></a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
+                <section id="projects">
+                    <h2><a id="Projects" href="#Projects">My Projects</a></h2>
+                    <div class="project">
+                        <img src="assets/images/complaint-dashboard.png" alt="image unavailable">
+                        <h3>Complaint Dashboard</h3>
+                        <p>
+                            -React application that displays useful metrics like complaint status and type. <br/>
+                            -Uses Javascript to display the piecharts and tables.<br/>
+                            -Grabs data from database using APIs.<br/>
+                        </p>
+                        <a href="https://statuesque-arithmetic-ee4b72.netlify.app/" target="_blank">View Project</a>
+                    </div>
+                
+                    <div class="project">
+                        <img src="assets/images/Fudr.png" alt="image unavailable">
+                        <h3>Fudr Zip Code Search</h3>
+                        <p>-Web application that uses Yelps API to display basic restaurant information.<br/>
+                           -Includes as ratings, review amounts, etc.
+                           -Searches for types of food (Mexican, Chinese) and sorts based on the cost</p>
+                        <a href="https://imaginative-narwhal-6d28b0.netlify.app/" target="_blank">View Project</a>
+                    </div>
+                </section>
+                
             </div>
         </div>
         <!---typed js for typing text effect-->
