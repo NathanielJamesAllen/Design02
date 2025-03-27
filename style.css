@@ -234,3 +234,42 @@ nav .navlinks li a:hover{
         justify-content: center;
     }
 }
+
+#projects {
+    text-align: center;
+    padding: 50px;
+}
+
+.project {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007ced;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.project a:hover {
+    background-color: #005bb5;
+}
